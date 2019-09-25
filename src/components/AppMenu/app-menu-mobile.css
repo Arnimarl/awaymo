@@ -1,0 +1,46 @@
+@media (max-width: 767px) {
+  .app-menu__header {
+    border-bottom: 2px solid #f07b81;
+  }
+
+  .app-menu__user {
+    flex-direction: column;
+    border: none;
+  }
+
+  .app-menu__user-avatar {
+    margin-bottom: 10px;
+  }
+
+  .app-menu__user-info {
+    text-align: center;
+    padding-left: 0;
+    font-weight: 400;
+  }
+
+  .app-menu__user-balance {
+    font-size: 18px;
+  }
+
+  .app-menu__list-link {
+    padding: 12px 0;
+    display: inline-block;
+    font-weight: 400;
+    border-bottom: 2px solid #f07b81;
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .app-menu__list-link--first {
+    padding-top: 0;
+  }
+
+  .app-menu__list-link--last {
+    border-bottom: none;
+  }
+
+  .app-menu__footer {
+    border-top: 2px solid #f07b81;
+    margin-top: 20px;
+  }
+}
