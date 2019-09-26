@@ -1,0 +1,132 @@
+.app-menu {
+  background: #ee5f63;
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+
+.app-menu__wrapper {
+  width: 100%;
+  max-width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.app-menu__header {
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  padding: 22px 0;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #fff;
+  text-align: center;
+}
+
+.app-menu__close {
+  float: right;
+  cursor: pointer;
+  font-size: 18px;
+  padding-top: 4px;
+}
+
+.app-menu__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.app-menu__main>div {
+  width: 33.33%;
+}
+
+.app-menu__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.app-menu__list-link {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+.app-menu__list-link:hover {
+  text-decoration: underline;
+}
+
+.app-menu__user {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f07b81;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.app-menu__user-avatar {
+  width: 35px;
+  background: #fff;
+  padding: 12px 8px 8px 8px;
+  border-radius: 50%;
+  border: 2px solid #ee5f63;
+  box-shadow: 0 0 0 2px #fff;
+}
+
+.app-menu__user-avatar>img {
+  width: 100%;
+}
+
+.app-menu__user-info {
+  padding-left: 20px;
+  text-align: left;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.app-menu__user-info>p {
+  margin: 0;
+}
+
+.app-menu__footer {
+  width: 100%;
+  border-top: 1px solid #f07b81;
+  margin-top: auto;
+  line-height: 0.5;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* animations */
+.app-menu-enter {
+  opacity: 0.3;
+  margin-top: -101vh;
+}
+
+.app-menu-enter-active {
+  opacity: 1;
+  margin-top: 0;
+  transition: 300ms;
+}
+
+.app-menu-exit {
+  opacity: 1;
+  margin-top: 0;
+}
+
+.app-menu-exit-active {
+  opacity: 0.3;
+  margin-top: 101vh;
+  transition: 200ms;
+}
