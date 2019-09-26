@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/awaymo/static/css/main.eaa3d9a5.chunk.css",
-    "main.js": "/awaymo/static/js/main.ce00ad35.chunk.js",
-    "main.js.map": "/awaymo/static/js/main.ce00ad35.chunk.js.map",
+    "main.js": "/awaymo/static/js/main.7eb4e51c.chunk.js",
+    "main.js.map": "/awaymo/static/js/main.7eb4e51c.chunk.js.map",
     "runtime~main.js": "/awaymo/static/js/runtime~main.66063234.js",
     "runtime~main.js.map": "/awaymo/static/js/runtime~main.66063234.js.map",
     "static/js/2.ac66461c.chunk.js": "/awaymo/static/js/2.ac66461c.chunk.js",
     "static/js/2.ac66461c.chunk.js.map": "/awaymo/static/js/2.ac66461c.chunk.js.map",
     "index.html": "/awaymo/index.html",
-    "precache-manifest.488333286e53ded618a0c23ad15abb7c.js": "/awaymo/precache-manifest.488333286e53ded618a0c23ad15abb7c.js",
+    "precache-manifest.d786578a67ff939be999545cc91ffa04.js": "/awaymo/precache-manifest.d786578a67ff939be999545cc91ffa04.js",
     "service-worker.js": "/awaymo/service-worker.js",
     "static/css/main.eaa3d9a5.chunk.css.map": "/awaymo/static/css/main.eaa3d9a5.chunk.css.map",
     "static/media/logo.svg": "/awaymo/static/media/logo.ee7cd8ed.svg"

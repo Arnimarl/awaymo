@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6227a28680e17a2873b37a6e75f9ffb2",
+    "revision": "1691e8b7917fb45297a34a1aa0fbb18c",
     "url": "/awaymo/index.html"
   },
   {
-    "revision": "9adf53cf7c84fc4af351",
+    "revision": "a061b622f68de22b4929",
     "url": "/awaymo/static/css/main.eaa3d9a5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/awaymo/static/js/2.ac66461c.chunk.js"
   },
   {
-    "revision": "9adf53cf7c84fc4af351",
-    "url": "/awaymo/static/js/main.ce00ad35.chunk.js"
+    "revision": "a061b622f68de22b4929",
+    "url": "/awaymo/static/js/main.7eb4e51c.chunk.js"
   },
   {
     "revision": "9ae4c28deac4b0e2cbae",
