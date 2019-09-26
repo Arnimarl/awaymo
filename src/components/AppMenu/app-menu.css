@@ -29,6 +29,13 @@
   text-align: center;
 }
 
+.app-menu__close {
+  float: right;
+  cursor: pointer;
+  font-size: 18px;
+  padding-top: 4px;
+}
+
 .app-menu__main {
   display: flex;
   flex-direction: row;
@@ -99,4 +106,27 @@
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
+}
+
+/* animations */
+.app-menu-enter {
+  opacity: 0.3;
+  margin-top: -101vh;
+}
+
+.app-menu-enter-active {
+  opacity: 1;
+  margin-top: 0;
+  transition: 300ms;
+}
+
+.app-menu-exit {
+  opacity: 1;
+  margin-top: 0;
+}
+
+.app-menu-exit-active {
+  opacity: 0.3;
+  margin-top: 101vh;
+  transition: 200ms;
 }

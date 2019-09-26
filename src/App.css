@@ -2,7 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -34,7 +34,7 @@ body {
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
 .push-right {
   padding-right: 10px;
@@ -56,3 +56,9 @@ body {
   }
 }
 
+.app-menu-icon {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
